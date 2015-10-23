@@ -6217,13 +6217,3 @@ Picker.extend( 'pickadate', DatePicker )
   });
 
 }( jQuery ));
-
-
-//originally from materialize starter template js/init.js file
-(function($){
-  $(function(){
-
-    $('.button-collapse').sideNav();
-
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
