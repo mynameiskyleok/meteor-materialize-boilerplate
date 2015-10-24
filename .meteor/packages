@@ -19,3 +19,6 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 gildaspk:autoform-materialize
 materialize:materialize@=0.97.0
 iron:router
+useraccounts:materialize
+useraccounts:iron-routing
+accounts-password
