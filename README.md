@@ -10,18 +10,19 @@ A [Meteor](https://www.meteor.com/) boilerplate using [Materialized](http://mate
 * useraccounts:materialize       1.12.4  Accounts Templates styled for Materiali...
 
 ## Installation
-1. Clone this repo to `<yourapp>`
+1. Clone this repo to your `<appname>` directory
 
-  `git clone https://github.com/Differential/meteor-boilerplate.git <yourapp>`
+  `git clone https://github.com/cowFipps/meteor-materialize-boilerplate.git <appname>`
 
-2. Remove `.git`
+2. Remove `.git` to start with a clean git history
 
-  `cd <yourapp> && rm -rf .git`
+  `cd <appname> && rm -rf .git`
 
-3. Start coding!
+3. Start building your app!
 
 ## Run Application
 
-  `meteor`
+1. `cd <appname>` 
+2. `meteor`
 
 
