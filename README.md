@@ -1,7 +1,5 @@
 # meteor-materialize-boilerplate
-A [Meteor](https://www.meteor.com/) boilerplate using [Materialized](http://materializedcss.com/). 
-
-[Demo of boilerplate](http://meteor-materialize-boilerplate.meteor.com/)
+A [Meteor](https://www.meteor.com/) boilerplate using [Materialized](http://materializedcss.com/). See [Demo](http://meteor-materialize-boilerplate.meteor.com/). Inspired by [Differential / meteor-boilerplate](https://github.com/Differential/meteor-boilerplate/tree/materialize).
 
 ## Packages
 * accounts-password              1.1.3  Password support for accounts
