@@ -1,6 +1,8 @@
 # meteor-materialize-boilerplate
 A [Meteor](https://www.meteor.com/) boilerplate using [Materialized](http://materializedcss.com/). 
 
+[Demo of boilerplate](http://meteor-materialize-boilerplate.meteor.com/)
+
 ## Packages
 * accounts-password              1.1.3  Password support for accounts
 * gildaspk:autoform-materialize  0.0.25  Materialize theme for Autoform
