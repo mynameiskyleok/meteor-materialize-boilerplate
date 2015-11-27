@@ -3,40 +3,28 @@
   <div class="container">
     <h1>List</h1>
     <ul class="collection">
-      <li class="collection-item avatar">
-        <img src="images/yuna.jpg" alt="" class="circle">
-        <span class="title">Title</span>
-        <p>First Line <br>
-           Second Line
-        </p>
-        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-      </li>
-      <li class="collection-item avatar">
-        <i class="material-icons circle">folder</i>
-        <span class="title">Title</span>
-        <p>First Line <br>
-           Second Line
-        </p>
-        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-      </li>
-      <li class="collection-item avatar">
-        <i class="material-icons circle green">insert_chart</i>
-        <span class="title">Title</span>
-        <p>First Line <br>
-           Second Line
-        </p>
-        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-      </li>
-      <li class="collection-item avatar">
-        <i class="material-icons circle red">play_arrow</i>
-        <span class="title">Title</span>
-        <p>First Line <br>
-           Second Line
-        </p>
-        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-      </li>
+      {{#each items}}
+        {{> listItem}}
+      {{/each}}
     </ul>
   </div>
-            
+
+</template>
+
+
+<template name="listItem">
+
+  <li class="collection-item avatar">
+    {{#if image}}
+      <img src="{{ image }}" alt="" class="circle">
+    {{else}}
+      <i class="material-icons circle">folder</i>
+    {{/if}}
+    <span class="title">{{ title }}</span>
+    <p>
+      {{ body }}
+    </p>
+    <a href="#!" class="secondary-content"><i class="material-icons">grade</i>{{ score }}</a>
+  </li>
 
 </template>

@@ -22,3 +22,5 @@ iron:router
 useraccounts:materialize
 useraccounts:iron-routing
 accounts-password
+aldeed:collection2
+matb33:collection-hooks
